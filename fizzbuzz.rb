@@ -1,9 +1,9 @@
-def fizzbuzz(number)
-  if (number % 3 == 0 && number % 5 == 0)
+def fizzbuzz(int)
+  if (int % 3 == 0 && int % 5 == 0)
     return 'Fizzbuzz'
-  elsif (number % 3 == 0)
+  elsif (int % 3 == 0)
     return 'Fizz'
-  elsif (number % 5 == 0)
+  elsif (int % 5 == 0)
     return 'Buzz'
   else
     return nil
